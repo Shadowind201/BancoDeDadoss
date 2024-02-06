@@ -32,16 +32,18 @@ Sistema gerenciador de banco de dados
 # Comandos SQL
 ## DDL-Definição
 
--`create database nome_do banco;`
--`show databases;`
--`create table nome_da_tabela;`
--`show tables;`
--`desc nome_da_tabela;`
+-`create database nome_do banco;` cria um banco de dados
+-`show databases;` mostra os bancos de dados
+-`create table nome_da_tabela;` cria uma tabela
+-`show tables;` mostra as tabelas
+-`desc nome_da_tabela;` 
 
 ## DML-Manipulação de dados
--`select * from nome_da_tabela;` 
--`insert into nome_da_tabela(camp);`
--`delete from nome_da_tabela were id >/< numero;` 
+-`select * from nome_da_tabela;`  mostra uma tabela
+-`insert into nome_da_tabela(camp);` adiciona um item a uma tabela
+-`delete from nome_da_tabela where nome_coluna = numero;` apaga uma tabela
+-`alter table nome_da_tabela drop uf column nome_coluna;` remove uma coluna
+-`alter table nome_da_tabela add nome_coluna propriedade;` adiciona uma coluna
 
 1. O que é um Sistema Gerenciador de Banco de Dados?
 É o sistema responsável pelo gerenciamento de um banco de dados
